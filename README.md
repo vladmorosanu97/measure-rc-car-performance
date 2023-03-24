@@ -5,8 +5,8 @@ To test the performance of an RC car, I use a combination of quantitative measur
 * Acceleration using MPU6050 board
 * Storage using Micro SD card module
 
-**NOTE**: I encountered some problems when wanted to connect all the sensores at once, so the only way I figured it out was to connect each sensore at a time.
-You will find two folders in this repository: `measure-rc-car-performance-using-gps` and `measure-rc-car-performance-using-accelerometer`, each of them is using a GPS or an accelerometer with a storage sd card module. 
+**NOTE**: I encountered some problems when I wanted to connect all the sensors at once, so the only way I figured it out was to connect each sensor at a time.
+You will find two folders in this repository: `measure-rc-car-performance-using-gps` and `measure-rc-car-performance-using-accelerometer`, each of them using a GPS or an accelerometer with a storage sd card module. 
 
 # Micro SD Card Module
 
@@ -46,7 +46,7 @@ Connect the TX pin to a digital pin (e.g. pin 2) on the Arduino board.
 
 Connect the RX pin to a digital pin (e.g. pin 3) on the Arduino board.
 
-Go to the `measure-rc-car-performance-using-gps` folder, open the `measure-rc-car-performance-using-gps.ino` and upload the files to your arduino.
+Go to the `measure-rc-car-performance-using-gps` folder, open the `measure-rc-car-performance-using-gps.ino` and upload the files to your Arduino.
 
 
 # MPU6050 Accelerometer
@@ -60,4 +60,4 @@ Connect the SDA pin of the MPU6050 module to the A4 pin (or SDA pin) of the Ardu
 
 Connect the SCL pin of the MPU6050 module to the A5 pin (or SCL pin) of the Arduino board.
 
-Once you have connected all the pins, go to the `measure-rc-car-performance-using-accelerometer` folder, open the `measure-rc-car-performance-using-accelerometer.ino` and upload the files to your arduino.
+Once you have connected all the pins, go to the `measure-rc-car-performance-using-accelerometer` folder, open the `measure-rc-car-performance-using-accelerometer.ino` and upload the files to your Arduino.
