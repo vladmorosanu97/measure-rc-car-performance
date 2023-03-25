@@ -61,3 +61,8 @@ Connect the SDA pin of the MPU6050 module to the A4 pin (or SDA pin) of the Ardu
 Connect the SCL pin of the MPU6050 module to the A5 pin (or SCL pin) of the Arduino board.
 
 Once you have connected all the pins, go to the `measure-rc-car-performance-using-accelerometer` folder, open the `measure-rc-car-performance-using-accelerometer.ino` and upload the files to your Arduino.
+
+# Results after testing
+![Acceleration of RC Car](https://user-images.githubusercontent.com/22732627/227725207-1e2e20c0-c36b-4133-8a77-78cd41502531.png)
+![Speed of RC Car](https://user-images.githubusercontent.com/22732627/227725204-1a669b17-4319-4295-86d1-05d28f47eaa1.png)
+
